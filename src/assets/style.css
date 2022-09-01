@@ -1,0 +1,169 @@
+img {
+  width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+
+sub,
+sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 55%;
+  line-height: 0;
+}
+
+sup {
+  top: -0.7em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* 1.2. Clear Fix
+      ========================== */
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/*for all*/
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #E6E6FA;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* Wrapper for All */
+.wrapper {
+  max-width: 1360px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* H2 Tag */
+h2 {
+  padding-bottom: 1.5%;
+  border-bottom: 1px solid rgba(255, 255, 255, .6);
+  margin: 0 6%;
+  color: rgba(255, 255, 255, .9);
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+
+/* toDoList Styling Start From Here */
+.toDoList {
+  margin: 12% auto 0;
+}
+
+.toDoList .wrapper {
+  padding: 2% 0;
+  background-color: #6495ED;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, .5);
+}
+
+.form-details {
+  margin: 4% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {  flex-basis: 50% }
+
+.input input {
+  width: 85%;
+  padding: 3% 5%;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.btn button {
+  padding: 10% 18px;
+  border: 0;
+  outline: 0;
+  background-color: #CD5C5C;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, .3)
+}
+
+.to_text { 
+  padding: 1% 3%;
+  margin: 2% 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0FFFF;
+  border-radius: 5px;
+}
+.to_text span { font-size: 18px; }
+
+.to_text .icon-text {
+  color: #000;
+  font-weight: 600;
+  flex-basis: 75%;
+}
+.icon {  
+  cursor: pointer;
+}
+
+/* Table Content */
+
+.table-content {
+  width: 60%;
+  padding: 5px;
+  border: 1px solid #000;
+  margin: 2% 19%;
+  background-color: #E6E6FA;
+  color: rgba(0, 0, 0, .8);
+  box-shadow: 0 0 8px 4px rgba(0,0,0, .3);
+  text-align: center;
+}
+.table-content thead tr {
+  background: #000;
+  color: #fff;
+}
+
+.main_content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-DragContext {
+  margin: 0 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faebd7;
+  border: 1px solid rgba(255, 255, 255, .3);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+.content-DragContext h3 { color: rgba(0,0,0, .6); }
